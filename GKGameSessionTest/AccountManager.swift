@@ -1,6 +1,6 @@
 //
 //  AccountManager.swift
-//  GKSessionTest
+//  GKGameSessionTest
 //
 //  Created by Bill A on 3/17/17.
 //  Copyright © 2017 aurnhammer. All rights reserved.

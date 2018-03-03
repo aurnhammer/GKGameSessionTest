@@ -23,12 +23,11 @@
 		A9914A3A1E796A5B00A5B625 /* BC_NotificationPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9914A391E796A5B00A5B625 /* BC_NotificationPresentationController.m */; };
 		A9914A3C1E79755500A5B625 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A3B1E79755500A5B625 /* UIView+Extensions.swift */; };
 		A9914A4B1E7C17D700A5B625 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A4A1E7C17D700A5B625 /* AccountManager.swift */; };
-		A9ECE4A41E7CC7B500D7CAC8 /* GKMessageImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A9ECE4A31E7CC7B500D7CAC8 /* GKMessageImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A90D3CC0203F79D30084BF5B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		A9914A0A1E78AE6F00A5B625 /* GKSessionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKSessionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9914A0A1E78AE6F00A5B625 /* GKGameSessionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKGameSessionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9914A0D1E78AE6F00A5B625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9914A0F1E78AE6F00A5B625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9914A121E78AE6F00A5B625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,11 +37,11 @@
 		A9914A201E78AEB500A5B625 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		A9914A261E78AEEA00A5B625 /* GameSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSessionManager.swift; sourceTree = "<group>"; };
 		A9914A281E78AF6900A5B625 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		A9914A2A1E78B00E00A5B625 /* GKSessionTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GKSessionTest.entitlements; sourceTree = "<group>"; };
+		A9914A2A1E78B00E00A5B625 /* GKGameSessionTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GKGameSessionTest.entitlements; sourceTree = "<group>"; };
 		A9914A2D1E78B26E00A5B625 /* GameSessionURLProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSessionURLProvider.swift; sourceTree = "<group>"; };
 		A9914A2F1E78D30500A5B625 /* NotificationPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationPresentationController.swift; sourceTree = "<group>"; };
 		A9914A311E7968C200A5B625 /* BC_NotificationTransitioningDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BC_NotificationTransitioningDelegate.h; sourceTree = "<group>"; };
-		A9914A321E7968E800A5B625 /* GKSessionTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKSessionTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A9914A321E7968E800A5B625 /* GKGameSessionTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GKGameSessionTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		A9914A331E7968E900A5B625 /* BC_NotificationTransitioningDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BC_NotificationTransitioningDelegate.m; sourceTree = "<group>"; };
 		A9914A351E79697000A5B625 /* BC_AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BC_AnimationController.h; sourceTree = "<group>"; };
 		A9914A361E79697000A5B625 /* BC_AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BC_AnimationController.m; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 		A9914A391E796A5B00A5B625 /* BC_NotificationPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BC_NotificationPresentationController.m; sourceTree = "<group>"; };
 		A9914A3B1E79755500A5B625 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		A9914A4A1E7C17D700A5B625 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
-		A9ECE4A31E7CC7B500D7CAC8 /* GKMessageImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GKMessageImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,7 @@
 		A9914A011E78AE6F00A5B625 = {
 			isa = PBXGroup;
 			children = (
-				A9914A0C1E78AE6F00A5B625 /* GKSessionTest */,
+				A9914A0C1E78AE6F00A5B625 /* GKGameSessionTest */,
 				A9914A0B1E78AE6F00A5B625 /* Products */,
 				A9914A1F1E78AEB500A5B625 /* Frameworks */,
 			);
@@ -78,15 +76,15 @@
 		A9914A0B1E78AE6F00A5B625 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9914A0A1E78AE6F00A5B625 /* GKSessionTest.app */,
+				A9914A0A1E78AE6F00A5B625 /* GKGameSessionTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9914A0C1E78AE6F00A5B625 /* GKSessionTest */ = {
+		A9914A0C1E78AE6F00A5B625 /* GKGameSessionTest */ = {
 			isa = PBXGroup;
 			children = (
-				A9914A2A1E78B00E00A5B625 /* GKSessionTest.entitlements */,
+				A9914A2A1E78B00E00A5B625 /* GKGameSessionTest.entitlements */,
 				A9914A0D1E78AE6F00A5B625 /* AppDelegate.swift */,
 				A9914A0F1E78AE6F00A5B625 /* ViewController.swift */,
 				A9914A261E78AEEA00A5B625 /* GameSessionManager.swift */,
@@ -97,12 +95,11 @@
 				A9914A281E78AF6900A5B625 /* Log.swift */,
 				A9914A491E7C178600A5B625 /* TransitionDelegate */,
 				A9914A141E78AE6F00A5B625 /* Assets.xcassets */,
-				A9ECE4A31E7CC7B500D7CAC8 /* GKMessageImage.png */,
 				A9914A161E78AE6F00A5B625 /* LaunchScreen.storyboard */,
 				A9914A191E78AE6F00A5B625 /* Info.plist */,
-				A9914A321E7968E800A5B625 /* GKSessionTest-Bridging-Header.h */,
+				A9914A321E7968E800A5B625 /* GKGameSessionTest-Bridging-Header.h */,
 			);
-			path = GKSessionTest;
+			path = GKGameSessionTest;
 			sourceTree = "<group>";
 		};
 		A9914A1F1E78AEB500A5B625 /* Frameworks */ = {
@@ -131,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9914A091E78AE6F00A5B625 /* GKSessionTest */ = {
+		A9914A091E78AE6F00A5B625 /* GKGameSessionTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9914A1C1E78AE6F00A5B625 /* Build configuration list for PBXNativeTarget "GKSessionTest" */;
+			buildConfigurationList = A9914A1C1E78AE6F00A5B625 /* Build configuration list for PBXNativeTarget "GKGameSessionTest" */;
 			buildPhases = (
 				A9914A061E78AE6F00A5B625 /* Sources */,
 				A9914A071E78AE6F00A5B625 /* Frameworks */,
@@ -143,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = GKSessionTest;
+			name = GKGameSessionTest;
 			productName = GKSessionTest;
-			productReference = A9914A0A1E78AE6F00A5B625 /* GKSessionTest.app */;
+			productReference = A9914A0A1E78AE6F00A5B625 /* GKGameSessionTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9914A051E78AE6F00A5B625 /* Build configuration list for PBXProject "GKSessionTest" */;
+			buildConfigurationList = A9914A051E78AE6F00A5B625 /* Build configuration list for PBXProject "GKGameSessionTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -193,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9914A091E78AE6F00A5B625 /* GKSessionTest */,
+				A9914A091E78AE6F00A5B625 /* GKGameSessionTest */,
 			);
 		};
 /* End PBXProject section */
@@ -206,7 +203,6 @@
 				A9914A181E78AE6F00A5B625 /* LaunchScreen.storyboard in Resources */,
 				A9914A151E78AE6F00A5B625 /* Assets.xcassets in Resources */,
 				A9914A131E78AE6F00A5B625 /* Main.storyboard in Resources */,
-				A9ECE4A41E7CC7B500D7CAC8 /* GKMessageImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,14 +361,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = GKSessionTest/GKSessionTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GKGameSessionTest/GKGameSessionTest.entitlements;
 				DEVELOPMENT_TEAM = 444UEHSZ58;
-				INFOPLIST_FILE = GKSessionTest/Info.plist;
+				INFOPLIST_FILE = GKGameSessionTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.districtapp.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "GKSessionTest/GKSessionTest-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GKGameSessionTest/GKGameSessionTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -384,14 +380,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = GKSessionTest/GKSessionTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GKGameSessionTest/GKGameSessionTest.entitlements;
 				DEVELOPMENT_TEAM = 444UEHSZ58;
-				INFOPLIST_FILE = GKSessionTest/Info.plist;
+				INFOPLIST_FILE = GKGameSessionTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.districtapp.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "GKSessionTest/GKSessionTest-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GKGameSessionTest/GKGameSessionTest-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -400,7 +396,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9914A051E78AE6F00A5B625 /* Build configuration list for PBXProject "GKSessionTest" */ = {
+		A9914A051E78AE6F00A5B625 /* Build configuration list for PBXProject "GKGameSessionTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9914A1A1E78AE6F00A5B625 /* Debug */,
@@ -409,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9914A1C1E78AE6F00A5B625 /* Build configuration list for PBXNativeTarget "GKSessionTest" */ = {
+		A9914A1C1E78AE6F00A5B625 /* Build configuration list for PBXNativeTarget "GKGameSessionTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9914A1D1E78AE6F00A5B625 /* Debug */,

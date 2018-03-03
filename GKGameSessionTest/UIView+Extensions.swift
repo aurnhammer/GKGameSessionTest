@@ -1,6 +1,6 @@
 //
 //  UIView+Extensions.swift
-//  GKSessionTest
+//  GKGameSessionTest
 //
 //  Created by Bill A on 3/15/17.
 //  Copyright © 2017 aurnhammer. All rights reserved.

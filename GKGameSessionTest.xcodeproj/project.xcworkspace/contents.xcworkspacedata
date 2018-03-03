@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GKSessionTest.xcodeproj">
+      location = "self:/Users/Bill/Documents/Development/GKSessionTest/GKGameSessionTest.xcodeproj">
    </FileRef>
 </Workspace>

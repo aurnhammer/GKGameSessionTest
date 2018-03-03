@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  GKSessionTest
+//  GKGameSessionTest
 //
 //  Created by Bill A on 3/14/17.
 //  Copyright © 2017 aurnhammer. All rights reserved.
