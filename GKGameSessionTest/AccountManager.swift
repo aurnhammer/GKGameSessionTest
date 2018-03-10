@@ -73,10 +73,8 @@ public class AccountManager: NSObject {
 				}
 				else {
 					Log.message("test: \(localPlayer)")
-					
 				}
 			}
-			
 		}
 		else {
 			Log.message("is Authenticated for Game Center")
@@ -103,14 +101,14 @@ public class AccountManager: NSObject {
     }
     
     func isGameCenterAccountAvailable(completion:@escaping (_ success: Bool?, _ error: Error?) -> Void) {
-        GKCloudPlayer.getCurrentSignedInPlayer(forContainer: GameSessionsManager.Container.ID) { [weak self] (signedInPlayer, error) in
+        GKCloudPlayer.getCurrentSignedInPlayer(forContainer: GameSessionsManager.Container.ID) {(signedInPlayer, error) in
             if signedInPlayer != nil {
-                self?.cloudPlayer = signedInPlayer
+                self.cloudPlayer = signedInPlayer
 				Log.message("\(String(describing: signedInPlayer))")
                 completion(true, error)
             }
             else {
-                self?.alertPlayerNotSignedInToGameCenter()
+                self.alertPlayerNotSignedInToGameCenter()
                 completion(false, error)
             }
         }

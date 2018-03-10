@@ -46,16 +46,18 @@ class ViewController: UIViewController {
 		accountManager.isGameCenterAccountAvailable { (isAvailable, error) in
 			self.gameSessionManager = GameSessionsManager.shared
 			self.startListening()
-			self.gameSessionManager?.loadSessions(completionHandler: { [weak self] (sessions, error) in
-				if let sessions = sessions, !sessions.isEmpty {
-					self?.gameSession = sessions.first
-				}
-			})
+			//self.gameSessionManager?.loadSessions()
+//			self.gameSessionManager?.loadSessions(completionHandler: { [weak self] (sessions, error) in
+//				if let sessions = sessions, !sessions.isEmpty {
+//					self?.gameSession = sessions.first
+//				}
+//			})
+
 		}
     }
 
     @IBAction func createSession(_ sender: UIButton) {
-        GameSessionsManager.shared.createSession(withMaxPlayerCount: 16, completionHandler: { [weak self] (gameSession, error) in
+		GameSessionsManager.shared.createSession(with: "Title", andMaxPlayerCount: 16, completionHandler: { [weak self] (gameSession, error) in
             if gameSession != nil {
                 self?.gameSession = gameSession
             }
@@ -218,6 +220,8 @@ class ViewController: UIViewController {
 
         }
     }
+	
+	
     
 }
 
@@ -225,7 +229,7 @@ extension GKGameSession {
     
     func sendData(_ string: String, completionHandler: @escaping (_ error:Error?) -> Void) {
         if let data = string.data(using: String.Encoding.utf8) {
-            self.send(data, with: GKTransportType.reliable) { (error) in
+            self.send(data, with: GKTransportType.unreliable) { (error) in
                 Log.error(with: #line, functionName: #function, error: error)
                 completionHandler(error)
             }
@@ -275,10 +279,7 @@ extension ViewController: GKGameSessionEventListener {
 			dispatchGroup.enter()
 			DispatchQueue.global(qos: DispatchQoS.QoSClass.userInitiated).async {
 				if nil == self.gameSession?.players {
-					self.gameSessionManager?.loadSessions(completionHandler: { [weak self] (sessions, error) in
-						if let sessions = sessions, !sessions.isEmpty {
-							self?.gameSession = sessions.first
-						}
+					self.gameSessionManager?.loadSessions(completionHandler: { [weak self] (error) in
 						dispatchGroup.leave()
 					})
 				}

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A90D3CC1203F79D30084BF5B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A90D3CC0203F79D30084BF5B /* CloudKit.framework */; };
+		A973BB4F2052CB10002F74AF /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973BB4E2052CB10002F74AF /* CloudKit.framework */; };
+		A973BB512052CB1D002F74AF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A973BB502052CB1D002F74AF /* GameKit.framework */; };
 		A9914A0E1E78AE6F00A5B625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A0D1E78AE6F00A5B625 /* AppDelegate.swift */; };
 		A9914A101E78AE6F00A5B625 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A0F1E78AE6F00A5B625 /* ViewController.swift */; };
 		A9914A131E78AE6F00A5B625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9914A111E78AE6F00A5B625 /* Main.storyboard */; };
 		A9914A151E78AE6F00A5B625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9914A141E78AE6F00A5B625 /* Assets.xcassets */; };
 		A9914A181E78AE6F00A5B625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9914A161E78AE6F00A5B625 /* LaunchScreen.storyboard */; };
-		A9914A211E78AEB500A5B625 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9914A201E78AEB500A5B625 /* GameKit.framework */; };
 		A9914A271E78AEEA00A5B625 /* GameSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A261E78AEEA00A5B625 /* GameSessionManager.swift */; };
 		A9914A291E78AF6900A5B625 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A281E78AF6900A5B625 /* Log.swift */; };
 		A9914A2E1E78B26E00A5B625 /* GameSessionURLProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A2D1E78B26E00A5B625 /* GameSessionURLProvider.swift */; };
@@ -23,10 +23,14 @@
 		A9914A3A1E796A5B00A5B625 /* BC_NotificationPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9914A391E796A5B00A5B625 /* BC_NotificationPresentationController.m */; };
 		A9914A3C1E79755500A5B625 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A3B1E79755500A5B625 /* UIView+Extensions.swift */; };
 		A9914A4B1E7C17D700A5B625 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9914A4A1E7C17D700A5B625 /* AccountManager.swift */; };
+		A9B27711204CF2B600DF762D /* GameSessionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B27710204CF2B600DF762D /* GameSessionsTableViewController.swift */; };
+		A9B27717204D6A5200DF762D /* GameSessionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B27716204D6A5200DF762D /* GameSessionDetailViewController.swift */; };
+		A9B27719204D7E2800DF762D /* ParticipantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B27718204D7E2800DF762D /* ParticipantsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A90D3CC0203F79D30084BF5B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A973BB4E2052CB10002F74AF /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		A973BB502052CB1D002F74AF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		A9914A0A1E78AE6F00A5B625 /* GKGameSessionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKGameSessionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9914A0D1E78AE6F00A5B625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9914A0F1E78AE6F00A5B625 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,7 +38,6 @@
 		A9914A141E78AE6F00A5B625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9914A171E78AE6F00A5B625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9914A191E78AE6F00A5B625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9914A201E78AEB500A5B625 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		A9914A261E78AEEA00A5B625 /* GameSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSessionManager.swift; sourceTree = "<group>"; };
 		A9914A281E78AF6900A5B625 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		A9914A2A1E78B00E00A5B625 /* GKGameSessionTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GKGameSessionTest.entitlements; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		A9914A391E796A5B00A5B625 /* BC_NotificationPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BC_NotificationPresentationController.m; sourceTree = "<group>"; };
 		A9914A3B1E79755500A5B625 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		A9914A4A1E7C17D700A5B625 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		A9B27710204CF2B600DF762D /* GameSessionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSessionsTableViewController.swift; sourceTree = "<group>"; };
+		A9B27716204D6A5200DF762D /* GameSessionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSessionDetailViewController.swift; sourceTree = "<group>"; };
+		A9B27718204D7E2800DF762D /* ParticipantsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9914A211E78AEB500A5B625 /* GameKit.framework in Frameworks */,
-				A90D3CC1203F79D30084BF5B /* CloudKit.framework in Frameworks */,
+				A973BB4F2052CB10002F74AF /* CloudKit.framework in Frameworks */,
+				A973BB512052CB1D002F74AF /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,11 +94,14 @@
 				A9914A0D1E78AE6F00A5B625 /* AppDelegate.swift */,
 				A9914A0F1E78AE6F00A5B625 /* ViewController.swift */,
 				A9914A261E78AEEA00A5B625 /* GameSessionManager.swift */,
-				A9914A4A1E7C17D700A5B625 /* AccountManager.swift */,
-				A9914A111E78AE6F00A5B625 /* Main.storyboard */,
+				A9B27710204CF2B600DF762D /* GameSessionsTableViewController.swift */,
+				A9B27716204D6A5200DF762D /* GameSessionDetailViewController.swift */,
+				A9B27718204D7E2800DF762D /* ParticipantsTableViewController.swift */,
 				A9914A3B1E79755500A5B625 /* UIView+Extensions.swift */,
 				A9914A2D1E78B26E00A5B625 /* GameSessionURLProvider.swift */,
 				A9914A281E78AF6900A5B625 /* Log.swift */,
+				A9914A4A1E7C17D700A5B625 /* AccountManager.swift */,
+				A9914A111E78AE6F00A5B625 /* Main.storyboard */,
 				A9914A491E7C178600A5B625 /* TransitionDelegate */,
 				A9914A141E78AE6F00A5B625 /* Assets.xcassets */,
 				A9914A161E78AE6F00A5B625 /* LaunchScreen.storyboard */,
@@ -105,8 +114,8 @@
 		A9914A1F1E78AEB500A5B625 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A90D3CC0203F79D30084BF5B /* CloudKit.framework */,
-				A9914A201E78AEB500A5B625 /* GameKit.framework */,
+				A973BB502052CB1D002F74AF /* GameKit.framework */,
+				A973BB4E2052CB10002F74AF /* CloudKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -221,6 +230,9 @@
 				A9914A291E78AF6900A5B625 /* Log.swift in Sources */,
 				A9914A371E79697000A5B625 /* BC_AnimationController.m in Sources */,
 				A9914A2E1E78B26E00A5B625 /* GameSessionURLProvider.swift in Sources */,
+				A9B27717204D6A5200DF762D /* GameSessionDetailViewController.swift in Sources */,
+				A9B27719204D7E2800DF762D /* ParticipantsTableViewController.swift in Sources */,
+				A9B27711204CF2B600DF762D /* GameSessionsTableViewController.swift in Sources */,
 				A9914A0E1E78AE6F00A5B625 /* AppDelegate.swift in Sources */,
 				A9914A341E7968E900A5B625 /* BC_NotificationTransitioningDelegate.m in Sources */,
 				A9914A301E78D30500A5B625 /* NotificationPresentationController.swift in Sources */,
@@ -366,7 +378,7 @@
 				INFOPLIST_FILE = GKGameSessionTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.districtapp.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beaconcrawl.District1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GKGameSessionTest/GKGameSessionTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -385,7 +397,7 @@
 				INFOPLIST_FILE = GKGameSessionTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.districtapp.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beaconcrawl.District1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GKGameSessionTest/GKGameSessionTest-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

@@ -31,10 +31,10 @@ class GameSessionURLProvider: UIActivityItemProvider {
 
         
         DispatchQueue.global(qos: DispatchQoS.QoSClass.userInitiated).async {
-            self.gameSession.getShareURL(completionHandler: { [weak self] (url, error) in
-                self?.url = url
-				if self?.activityType == UIActivityType.airDrop {
-					self?.loadingViewController.dismiss(animated: true, completion: {
+            self.gameSession.getShareURL(completionHandler: {(url, error) in
+                self.url = url
+				if self.activityType == UIActivityType.airDrop {
+					self.loadingViewController.dismiss(animated: true, completion: {
 						group.leave()
 					})
 				}
