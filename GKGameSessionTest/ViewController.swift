@@ -58,9 +58,7 @@ class ViewController: UIViewController {
 
     @IBAction func createSession(_ sender: UIButton) {
 		GameSessionsManager.shared.createSession(with: "Title", andMaxPlayerCount: 16, completionHandler: { [weak self] (gameSession, error) in
-            if gameSession != nil {
-                self?.gameSession = gameSession
-            }
+               self?.gameSession = gameSession
         })
     }
 	
@@ -279,7 +277,7 @@ extension ViewController: GKGameSessionEventListener {
 			dispatchGroup.enter()
 			DispatchQueue.global(qos: DispatchQoS.QoSClass.userInitiated).async {
 				if nil == self.gameSession?.players {
-					self.gameSessionManager?.loadSessions(completionHandler: { [weak self] (error) in
+					self.gameSessionManager?.loadSessions(completionHandler: { (error) in
 						dispatchGroup.leave()
 					})
 				}
